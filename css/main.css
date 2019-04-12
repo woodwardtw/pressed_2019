@@ -1,0 +1,47 @@
+
+
+/* 
+stuff to make the visuals better
+*/
+
+body {
+  max-width:500px;
+  margin: 10px auto;
+  font-family: sans-serif;
+  font-size: 1.1em;
+}
+
+.container {
+  margin: 10px 0;
+  border: 2px solid #000;
+  padding: 10px;  
+  height: 400px;
+}
+
+.highlight {
+  background: lightblue;
+  display: inline-block;
+  padding: 2px 4px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Exo', sans-serif;
+}
+
+h2:target {
+  color: red !important;
+}
+
+
+style {
+  display: block;
+  font-size:15px;
+  padding: 10px;
+  white-space: pre;
+   color: blue;
+    font-family: courier, sans-serif;
+    background: #ddf7ff;
+    line-height: 1.5;
+    position:relative;
+    top:-2em;
+}
