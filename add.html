@@ -1,0 +1,38 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Pressed 2019 Demo HTML</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Exo:800" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+    	<div id="main-menu"></div>
+    	<h1>Adding Things</h1>
+      <div class="container">
+		  <h2 id="one">Add Me</h2>
+		  <p>Here is our beginning. In this scenario, I'm happy to have this descriptive text but I'd like to add some pieces.</p>
+		</div>
+        <div class="container" id="container-after">
+             <pre>
+              <style id="style-after" contenteditable="true">
+#add-here:after {
+    content: 'plain words';
+    font-size: .8em;
+    display: block;
+    }
+                </style>
+            </pre>
+          <h2 id="add-here">Remove Me</h2>
+          <p>Another option is to set the <span class="highlight">opacity: 0;</span>. Note that the space the words occupied remains when we do it this way. </p>
+          <p>Clicking the button below sets the opacity to .5.</p>
+          <button id="button-after" data-id="after" data-style="#add-here:after {&#xa; content: 'words, words, words';&#xa;display: inline-block;&#xa; margin-left: 10px;&#xa;}">set</button>
+        </div>
+		
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>
