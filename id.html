@@ -1,0 +1,40 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Pressed 2019 Demo HTML - It's all in the name</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Exo:800" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+    	<h1>What's my name?</h1>
+      <div class="container">
+		  <h2 id="hi-there">Hi there</h2>
+		  <p>There are lots of ways you can name elements in HTML. </p>
+		  <p>The more precisely you can name the thing, the more power you have over it. It's a bit like the "<a href="https://en.wikipedia.org/wiki/True_name">true name</a>" concept you see in religion/magic. If you have an element's true name you can control it completely.</p>
+		  <p></p>
+		</div>
+
+		<div class="container">
+		  <h2 id="color-me">Color Me</h2>
+		  <pre>
+			  <style id="style-two" contenteditable="true">
+#color-me {
+	color: red;
+	}
+			</style>
+		</pre>
+		  <p>In this case, we have an H2 element with the ID <span class="highlight">color-me</span> </p>
+		  <p>IDs are more specific than classes. In the CSS you'll see IDs referenced with # and the name. Classes will be named with a . in front instead. The HTML is easier to see as they just write <span class="highlight">class="whatever"</span> and <span class="highlight">id="something"</span>.
+		  <button id="button-two" data-id="two" data-style="#color-me { color: blue;}">change to blue</button>
+		  <p>HTML recognizes a bunch of regular color names but also uses hexadecimal color codes and rgba codes for more specificity.</p>
+		  <button id="button-three" data-id="two" data-style="#color-me { color: #90de13;}">change to #90de13</button>
+		</div>
+
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>

@@ -13,6 +13,5 @@ function changeCss(idStem, newCss, button){
 	let style = document.getElementById('style-'+idStem);
 	let old = document.getElementById('style-'+idStem).innerHTML;	
 	button.dataset.style = old;
-	style.innerHTML = newCss
-	
+	style.innerHTML = newCss;
 }
