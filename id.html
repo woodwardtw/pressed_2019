@@ -35,6 +35,23 @@
 		  <button id="button-three" data-id="two" data-style="#color-me { color: #90de13;}">change to #90de13</button>
 		</div>
 
+		<div class="container">
+		  <h2 id="color-me" class="important">Color Me</h2>
+		  <pre>
+			  <style id="style-size" contenteditable="true">
+#color-me {
+	color: red;
+	}
+.important {
+	font-size: 50px;
+}
+			</style>
+		</pre>
+		  <p>In this case, we have an H2 element with the ID <span class="highlight">color-me</span> and the class <span class="highlight">important</span>.</p>
+		  <p></p>
+		  <button id="button-size" data-id="size" data-style="#color-me {&#xa; color: red;&#xa;}&#xa; .important {&#xa;font-size: 20px;&#xa; color:green;/*note this doesn't override the red*/&#xa; }">change to small font</button>
+		</div>
+
 		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
     </body>
 </html>
