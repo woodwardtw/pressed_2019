@@ -77,3 +77,30 @@ style {
   position:relative;
   top:-2em;
 }
+
+#main-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#main-menu li {
+    display: inline-block;
+    width: 100px;
+    border: 1px solid;
+    margin: 0 10px;
+    text-align: center;
+}
+
+#main-menu a {
+  text-decoration: none;
+  widows: 100%;
+  display: block;
+  padding: 5px 0;
+  transition: all .3s;
+}
+
+#main-menu a:hover {
+  background-color: #191977;
+  color: #fff;
+}

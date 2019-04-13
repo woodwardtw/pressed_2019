@@ -15,3 +15,11 @@ function changeCss(idStem, newCss, button){
 	button.dataset.style = old;
 	style.innerHTML = newCss;
 }
+
+let mainMenu = document.getElementById('main-menu');
+let destinations = ['replace','id'];
+let menuHtml = '';
+destinations.forEach(function(dest){
+	menuHtml = menuHtml + '<li><a href="' + dest + '.html">' + dest + '</a></li>';
+})
+mainMenu.innerHTML = menuHtml;
