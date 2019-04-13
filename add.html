@@ -27,10 +27,26 @@
     }
                 </style>
             </pre>
-          <h2 id="add-here">Remove Me</h2>
+          <h2 id="add-here">Add Me After</h2>
           <p>You can use CSS to add textual content using <span class="highlight">#add-here:after</span> selector in conjunction with  <span class="highlight">content</span>. Note that the space the words occupied remains when we do it this way. </p>
           <p>Clicking the button below sets the content but uses emojis to demonstrate a bit more of the possibilities.</p>
           <button id="button-after" data-id="after" data-style="#add-here:after {&#xa; content: '🖖🖖🖖';&#xa;display: inline-block;&#xa; margin-left: 10px;&#xa;}">set</button>
+        </div>
+
+        <div class="container" id="container-before">
+             <pre>
+              <style id="style-before" contenteditable="true">
+#add-before:before {
+    content: 'plain words';
+    font-size: .8em;
+    display: block;
+    }
+                </style>
+            </pre>
+          <h2 id="add-before">Add Me Before</h2>
+          <p>You can use CSS to add textual content using <span class="highlight">#add-here:after</span> selector in conjunction with  <span class="highlight">content</span>. Note that the space the words occupied remains when we do it this way. </p>
+          <p>Clicking the button below sets the content but uses emojis to demonstrate a bit more of the possibilities.</p>
+          <button id="button-before" data-id="before" data-style="#add-before:before {&#xa; content: '🖖🖖🖖';&#xa;display: inline-block;&#xa; margin-left: 10px;&#xa;}">set</button>
         </div>
 		
 		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
