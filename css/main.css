@@ -79,18 +79,20 @@ style, .php {
   position:relative;
 }
 
-#main-menu ul {
+#main-menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
 }
 
-#main-menu li {
+#main-menu div {
     display: inline-block;
     border-bottom: 2px solid #ddf7ff; 
     margin: 0 10px;
     text-align: center;
-    min-width: 50px;
+    line-height: 2em;
 }
 
 #main-menu a {

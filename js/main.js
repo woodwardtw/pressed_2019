@@ -20,7 +20,7 @@ let mainMenu = document.getElementById('main-menu');
 let destinations = ['🏠','id','remove','add', 'plugins'];
 let menuHtml = '';
 destinations.forEach(function(dest){
-	menuHtml = menuHtml + '<li><a href="' + dest + '.html">' + dest + '</a></li>';
+	menuHtml = menuHtml + '<div><a href="' + dest + '.html">' + dest + '</a></div>';
 })
 mainMenu.innerHTML = menuHtml;
 
