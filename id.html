@@ -56,12 +56,13 @@
 		  <h2 id="most-important" class="important">Color Me</h2>
 		  <pre>
 			  <style id="style-important" contenteditable="true">
-
+#most-important {
+	color:red;
+}
 			</style>
 		</pre>
-		  <p> </p>		  
-		  <p></p>
-		  <button id="button-size" data-id="important" data-style=".important {&#xa; color:green !important;/*note this DOES override the red*/&#xa; }">change to green</button>
+		  <p>When you need to you can use <span class="highlight">!important</span> to override CSS styles even when they would otherwise be more powerful.</p>		  
+		  <button id="button-size" data-id="important" data-style="#most-important {&#xa;color:red;&#xa;}&#xa;.important {&#xa; color:green !important;/*note this DOES override the red*/&#xa; }">change to green</button>
 		</div>
 
 		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
