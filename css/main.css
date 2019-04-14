@@ -105,3 +105,13 @@ style, .php {
   background-color: #191977;
   color: #fff;
 }
+
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.footer-container div {
+  display: inline-block;
+}

@@ -23,3 +23,11 @@ destinations.forEach(function(dest){
 	menuHtml = menuHtml + '<li><a href="' + dest + '.html">' + dest + '</a></li>';
 })
 mainMenu.innerHTML = menuHtml;
+
+let footer = document.getElementById('footer');
+let footerHTML = '<div class="footer-container">';
+footerHTML = footerHTML + '<div><a href="https://bionicteaching.com">bionicteaching.com</a></div>';
+footerHTML = footerHTML + '<div><a href="https://pressedconf.org/">pressedconf</a></div>';
+footerHTML = footerHTML +'</div></div>';
+
+footer.innerHTML = footerHTML;
