@@ -88,10 +88,10 @@ style {
 
 #main-menu li {
     display: inline-block;
-    width: 100px;
-    border: 1px solid;
-    margin: 0 10px;
+    border-bottom: 2px solid #ddf7ff; 
+    margin: 0 20px;
     text-align: center;
+    min-width: 50px;
 }
 
 #main-menu a {

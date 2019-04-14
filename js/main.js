@@ -17,7 +17,7 @@ function changeCss(idStem, newCss, button){
 }
 
 let mainMenu = document.getElementById('main-menu');
-let destinations = ['id','remove','add', 'plugins'];
+let destinations = ['🏠','id','remove','add', 'plugins'];
 let menuHtml = '';
 destinations.forEach(function(dest){
 	menuHtml = menuHtml + '<li><a href="' + dest + '.html">' + dest + '</a></li>';
