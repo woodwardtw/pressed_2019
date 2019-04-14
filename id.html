@@ -15,8 +15,9 @@
     	<h1>What's my name?</h1>
       <div class="container">
 		  <h2 id="hi-there">Hi there</h2>
-		  <p>There are lots of ways you can name elements in HTML. </p>
-		  <p>The more precisely you can name the thing, the more power you have over it. It's a bit like the "<a href="https://en.wikipedia.org/wiki/True_name">true name</a>" concept you see in religion/magic. If you have an element's true name you can control it completely.</p>
+		  <p>There are lots of ways you can identify elements in HTML and what you can name you can control via CSS. </p>
+		  <p>The more precisely you can name the thing, the more power you have over it. It's a bit like the "<a href="https://en.wikipedia.org/wiki/True_name">true name</a>" concept you see in religion/magic. If you have an element's true name you can control it completely.</p> 
+		  <p>You can learn more about <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity">CSS specificity</a> here.</p>
 		  <p></p>
 		</div>
 
@@ -30,7 +31,8 @@
 			</style>
 		</pre>
 		  <p>In this case, we have an H2 element with the ID <span class="highlight">color-me</span> </p>
-		  <p>IDs are more specific than classes. In the CSS you'll see IDs referenced with # and the name. Classes will be named with a . in front instead.</p> 
+		  <p>IDs are more specific than classes. You can have multiple classes and an ID on the same element but the ID should be unique on the page and only one ID per element.</p>
+		  <p>In the CSS you'll see IDs referenced with # and the name. Classes will be named with a . in front instead.</p> 
 		  <p>The HTML portion is easier to understand as you just write <span class="highlight">class="whatever"</span> and <span class="highlight">id="something"</span>.
 		  <button id="button-two" data-id="two" data-style="#color-me {&#xa; color: blue;&#xa;}">change to blue</button>
 		  <p>HTML recognizes a bunch of regular color names but also uses hexadecimal color codes and rgba codes for more specificity.</p>
@@ -62,7 +64,7 @@
 			</style>
 		</pre>
 		  <p>When you need to you can use <span class="highlight">!important</span> to override CSS styles even when they would otherwise be more powerful.</p>		  
-		  <button id="button-size" data-id="important" data-style="#most-important {&#xa;color:red;&#xa;}&#xa;.important {&#xa; color:green !important;/*note this DOES override the red*/&#xa; }">change to green</button>
+		  <button id="button-size" data-id="important" data-style="#most-important {&#xa;color:red;&#xa;}&#xa;.important {&#xa; color:green !important;/*surprise!*/&#xa; }">change to green</button>
 		</div>
 
 		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
